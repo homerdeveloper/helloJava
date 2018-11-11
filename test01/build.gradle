@@ -15,5 +15,8 @@ repositories{
 dependencies{
     testCompile 'junit:junit:4.12'
 }
-
-mainClassName = 'Main'  
+jar{
+    manifest {
+        attributes 'Main-Class': 'de.home.dev.Hello.Main'
+    }
+}
