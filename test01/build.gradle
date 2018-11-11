@@ -17,6 +17,7 @@ dependencies{
 }
 jar{
     manifest {
-        attributes 'Main-Class': 'de.home.dev.Hello.Main'
+        attributes 'Main-Class': 'Main'
     }
 }
+mainClassName = 'Main'  
